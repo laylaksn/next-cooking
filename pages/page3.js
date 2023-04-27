@@ -19,15 +19,38 @@ export default function Home() {
         <div>
           <Link href={"/"}>Back to home</Link>
           <h1 className="h1page1">Page 2</h1>
-          <h2 className="h2page1">Faith will add a recipe here!</h2>
+          <h2 className="h2page1">
+           Florentine pizza recipe
+          </h2>
+          <img src="https://realfood.tesco.com/media/images/Florentine-pizza-LGH-2cc73fa2-bc01-4120-8dbd-c364556b499b-0-1400x919.jpg"/>
           <h3 className="h3page1">Ingredients:</h3>
           <ul className="ingpage1">
-            <li></li>
+            <li>400g tin chopped tomatoes</li>
+            <li>1 x 240g bag baby spinach, wilted</li>
+            <li>125g (4oz) mozzarella ball, torn</li>
+            <li>250g bag grated mozzarella</li>
+            <li>1 x 88g pack Parma ham, torn</li>
+            <li>4 eggs</li>
+            <li>500g (1lb) strong bread flour</li>
+            <li>1 tsp caster sugar</li>
+            <li>2 x 7g sachets dried yeast</li>
+            <li>2 tbsp extra-virgin olive oil, plus extra for greasing</li>
           </ul>
           <h4>Recipe:</h4>
-          <ul>
-            <li></li>
-          </ul>
+          <ol>
+            <li>To make the pizza dough, mix the flour, sugar, 2 tsp salt, and yeast in a bowl. Stir in the oil and add about 300ml lukewarm water to make a soft, but not sticky dough.
+            </li>
+            <li>Tip onto a floured work surface and knead for 10 mins. Transfer to a clean bowl, cover with oiled clingfilm and set aside to prove in a warm place for 1 hr, or until doubled in size.
+            </li>
+            <li>Meanwhile, cook the tomatoes in a pan until thickened and reduced; season well. Preheat the oven to its highest setting. Divide the dough into 4 and shape each into a ball. Roll out thinly and put on 4 baking sheets lined with nonstick baking paper.
+            </li>
+            <li>Spread each base with tomato sauce, then scatter over the spinach, mozzarella and ham. Bake, in batches if needed, for 8 mins.
+            </li>
+            <li>Crack an egg in the centre of each pizza. Continue baking for 2-3 mins more, until the egg is just set and the crust is crisp.
+            </li>
+          </ol>
+          <h4>You may also like...</h4>
+          <Link href="/page1">Creamy vegan mushroom pasta</Link>
         </div>
       </main>
     </>

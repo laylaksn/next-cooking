@@ -111,6 +111,7 @@ a {
   font-style: italic;
   text-align: left;
   text-indent: 20px;
+  padding: 15px;
 }
 
 .h2page1 {
@@ -118,4 +119,47 @@ a {
   font-style: italic;
   text-align: left;
   text-indent: 20px;
+  padding: 15px;
 }
+
+.someHeading {
+  color: black;
+  font-style: regular;
+  font-size: 60px;
+  text-align: left;
+}
+
+.typeOfRecipes {
+  color: black;
+  font-style: regular;
+  text-align: left;
+  text-indent: 0px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.linkToRecipes {
+  color: black;
+  font-style: regular;
+  text-align: left;
+  text-indent: 0px;
+}
+
+img {
+  width: 300px;
+  padding: 15px;
+  display: inline-block;
+}
+
+h2{
+  font-size: 30px;
+  padding: 15px;
+  text-decoration-color:green;
+}
+
+h3 {
+  font-style:normal;
+  text-align: right;
+  font-size: 20px;
+}
+
