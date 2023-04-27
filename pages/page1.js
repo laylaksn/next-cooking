@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div>
+          <Link href={"/"}>Back to home</Link>
           <h1 className="h1page1">Page 1</h1>
           <h2 className="h2page1">Recipe for creamy vegan mushroom pasta</h2>
           <h3 className="h3page1">Ingredients:</h3>
