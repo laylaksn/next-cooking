@@ -20,8 +20,8 @@ export default function Home() {
           <Link href="/page1">
             recipe 1
           </Link>
-          <Link href="/page2">
-            recipe 1
+          <Link href="/page1">
+            recipe 2
           </Link>
         </div>
       </main>
