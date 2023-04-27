@@ -18,12 +18,12 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <Link href="/page1">
-            recipe 1
+          creamy vegan mushroom pasta
           </Link>
-          <Link href="/page1">
+          <Link href="/page2">
             recipe 2
           </Link>
-          <Link href="/page1">
+          <Link href="/page2">
             recipe 3
           </Link>
         </div>
