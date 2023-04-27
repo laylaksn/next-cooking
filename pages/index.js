@@ -18,7 +18,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <h1 className="someHeading">CFG recipes</h1>
-          <h2 className="typeOfRecipes">What's popular</h2>
+          <h2 className="typeOfRecipes">What&apos;s popular</h2>
           <h3>
             <Link href="/page1">Creamy vegan mushroom pasta</Link>
           </h3>
@@ -42,6 +42,7 @@ export default function Home() {
             <Link href="/page3">Florentine pizza</Link>
           </h3>
           <img src="https://realfood.tesco.com/media/images/Florentine-pizza-LGH-2cc73fa2-bc01-4120-8dbd-c364556b499b-0-1400x919.jpg" />
+          
           <h2 className="typeOfRecipes">Vegan recipes</h2>
           <h3>
             <Link href="/page1">Creamy vegan mushroom pasta</Link>{" "}
