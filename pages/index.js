@@ -22,9 +22,6 @@ export default function Home() {
           <Link href="/page2">recipe 2</Link>
           <Link href="/page2">recipe 3</Link>
         </div>
-        <div className={styles.description}>
-          <Link href="/page1">creamy vegan mushroom pasta</Link>
-        </div>
       </main>
     </>
   );
