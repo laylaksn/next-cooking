@@ -17,7 +17,6 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <h1 className="popularTitle">What's popular</h1>
           <Link href="/page1">Creamy vegan mushroom pasta</Link>
           <Link href="/page2">recipe 2</Link>
           <Link href="/page2">recipe 3</Link>
