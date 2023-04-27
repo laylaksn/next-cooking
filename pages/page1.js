@@ -15,98 +15,37 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
+        <div>
+          <h1 className="h1page1">Page 1</h1>
+          <h2 className="h2page1">Recipe for creamy vegan mushroom pasta</h2>
+          <h3 className="h3page1">Ingredients:</h3>
+          <ul className="ingpage1">
+            <li>dash of olive oil</li>
+            <li>4 cloves of garlic (or more if you love garlic), crushed</li>
+            <li>1 onion, finely chopped</li>
+            <li>500ml of mushroom stock</li>
+            <li>350ml of plant milk</li>
+            <li>500g of pasta (penne)</li>
+            <li>salt to taste</li>
+            <li>black pepper and dried oregano to taste</li>
+            <li>1/2 tablespoon of nutritional yeast</li>
+          </ul>
+          <h4>Recipe:</h4>
+          <ul>
+            <li>Heat the olive oil in a large pot over medium heat</li>
+            <li>
+              Add the garlic and onion with some salt and cook until the garlic
+              is translucent
+            </li>
+            <li>
+              Add the mushroom stock, milk, pasta, salt, pepper and dried
+              oregano and bring to a boil
+            </li>
+            <li>Once boiling, reduce to a simmer and cover with a lid</li>
+            <li>Cook for about 20 minutes, or until the pasta is al dente</li>
+            <li>Stir in the nutritional yeast</li>
+            <li>Serve and enjoy :) </li>
+          </ul>
         </div>
       </main>
     </>
