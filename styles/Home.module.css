@@ -2,13 +2,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 6rem;
   min-height: 100vh;
 }
 
 .description {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.recipePic {
+  display:flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -17,4 +31,22 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  padding: 15px;
+  background-color: lightgrey;
+}
+
+.recipeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.boxForTitle {
+  padding: 0px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin-right: 10px;
 }
