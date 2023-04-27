@@ -23,6 +23,9 @@ export default function Home() {
           <Link href="/page1">
             recipe 2
           </Link>
+          <Link href="/page1">
+            recipe 3
+          </Link>
         </div>
       </main>
     </>
