@@ -16,8 +16,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <h1 id="greeting">Welcome to my website!</h1>
-        <p>Here are recipes</p>
         <div className={styles.description}>
           <h1 className="popularTitle">What's popular</h1>
           <Link href="/page1">creamy vegan mushroom pasta</Link>
@@ -25,7 +23,6 @@ export default function Home() {
           <Link href="/page2">recipe 3</Link>
         </div>
         <div className={styles.description}>
-          <h1 className="veganTitle">Vegan recipes</h1>
           <Link href="/page1">creamy vegan mushroom pasta</Link>
         </div>
       </main>
