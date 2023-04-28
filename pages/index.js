@@ -80,19 +80,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <h2 className="typeOfRecipes">Desserts</h2>
-          <div className={styles.description}>
-            <div className={styles.recipePic}>
-              <button class="button">
-                <a href="/page4">
-                  Blackberry filo tart
-                  <img src="https://realfood.tesco.com/media/images/RFO-1400x919-Blackberry-filo-tart-8b86384a-c2ac-4937-b9b3-9c21167bee52-0-1400x919.jpg" />
-                </a>
-              </button>
-            </div>
-          </div>
-        </div>
       </main>
     </>
   );
