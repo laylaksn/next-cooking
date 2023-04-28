@@ -32,7 +32,6 @@
   z-index: 2;
   font-family: var(--font-mono);
   padding: 15px;
-  background-color: lightgrey;
 }
 
 .recipeContainer {
@@ -44,9 +43,3 @@
   padding: 0px;
 }
 
-.item {
-  width: 100px;
-  height: 100px;
-  background-color: gray;
-  margin-right: 10px;
-}
