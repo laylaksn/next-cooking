@@ -127,6 +127,20 @@ a {
   padding: 15px;
 }
 
+.servings {
+  color:rgba(7, 7, 7, 0.953);
+  background-color: rgb(159, 218, 239);
+  padding: 5px;
+  margin: 1%;
+  flex-direction: column;
+  width: auto;
+}
+
+.numServings {
+  color: white;
+  font-size: 20px;
+}
+
 .someHeading {
   color: black;
   font-style: regular;
@@ -156,7 +170,7 @@ img {
   object-fit:fill;
 }
 
-h2{
+h2 {
   font-size: 30px;
   padding: 15px;
   text-decoration-color:green;
