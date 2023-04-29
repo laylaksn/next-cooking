@@ -3,10 +3,19 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import { useState} from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [counter, setCounter] = useState(4);
+    //useState(0) indicates counter starting point
+    const handleClick = () => {
+      setCounter(counter + 1);
+    };
+    const minusClick = () => {
+      setCounter(counter - 1);
+    };
   return (
     <>
       <Head>
@@ -23,26 +32,29 @@ export default function Home() {
            Florentine pizza recipe
           </h2>
           <img src="https://realfood.tesco.com/media/images/Florentine-pizza-LGH-2cc73fa2-bc01-4120-8dbd-c364556b499b-0-1400x919.jpg"/>
+          <h4 className="numServings">Currently feeds {counter}</h4>
+          <button onClick={handleClick} className="servings">Add serving</button>
+          <button onClick={minusClick} className="servings">Minus serving</button>
           <h3 className="h3page1">Ingredients:</h3>
           <ul className="ingpage1">
-            <li>400g tin chopped tomatoes</li>
-            <li>1 x 240g bag baby spinach, wilted</li>
-            <li>125g (4oz) mozzarella ball, torn</li>
-            <li>250g bag grated mozzarella</li>
-            <li>1 x 88g pack Parma ham, torn</li>
-            <li>4 eggs</li>
-            <li>500g (1lb) strong bread flour</li>
-            <li>1 tsp caster sugar</li>
-            <li>2 x 7g sachets dried yeast</li>
-            <li>2 tbsp extra-virgin olive oil, plus extra for greasing</li>
+            <li>{100 * counter}g tin chopped tomatoes</li>
+            <li>{60 * counter}g baby spinach, wilted</li>
+            <li>{31.25 * counter}g ({1 * counter}oz) mozzarella ball, torn</li>
+            <li>{62.5 * counter}g bag grated mozzarella</li>
+            <li>{22 * counter}g pack Parma ham, torn</li>
+            <li>{1 * counter} eggs</li>
+            <li>{125 * counter}g ({0.25 * counter}lb) strong bread flour</li>
+            <li>{0.25 * counter} tsp caster sugar</li>
+            <li>{3.5 * counter}g dried yeast</li>
+            <li>{0.5 * counter} tbsp extra-virgin olive oil, plus extra for greasing</li>
           </ul>
           <h4>Recipe:</h4>
           <ol>
-            <li>To make the pizza dough, mix the flour, sugar, 2 tsp salt, and yeast in a bowl. Stir in the oil and add about 300ml lukewarm water to make a soft, but not sticky dough.
+            <li>To make the pizza dough, mix the flour, sugar, {0.5 * counter} tsp salt, and yeast in a bowl. Stir in the oil and add about {75 * counter}ml lukewarm water to make a soft, but not sticky dough.
             </li>
             <li>Tip onto a floured work surface and knead for 10 mins. Transfer to a clean bowl, cover with oiled clingfilm and set aside to prove in a warm place for 1 hr, or until doubled in size.
             </li>
-            <li>Meanwhile, cook the tomatoes in a pan until thickened and reduced; season well. Preheat the oven to its highest setting. Divide the dough into 4 and shape each into a ball. Roll out thinly and put on 4 baking sheets lined with nonstick baking paper.
+            <li>Meanwhile, cook the tomatoes in a pan until thickened and reduced; season well. Preheat the oven to its highest setting. Divide the dough into {counter} and shape each into a ball. Roll out thinly and put on 4 baking sheets lined with nonstick baking paper.
             </li>
             <li>Spread each base with tomato sauce, then scatter over the spinach, mozzarella and ham. Bake, in batches if needed, for 8 mins.
             </li>

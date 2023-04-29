@@ -3,10 +3,19 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import { useState} from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [counter, setCounter] = useState(4);
+    //useState(0) indicates counter starting point
+    const handleClick = () => {
+      setCounter(counter + 1);
+    };
+    const minusClick = () => {
+      setCounter(counter - 1);
+    };
   return (
     <>
       <Head>
@@ -23,19 +32,22 @@ export default function Home() {
             Roasted squash salad with pomegranate dressing
           </h2>
           <img src="https://realfood.tesco.com/media/images/TESCO-01-Xmas-FestiveMenuHelperRecipes-2910-GM-54718-RoastedSquashSaladWithPomegranteDressingVeganGF-1400x919-1c7e714f-2cc3-4cb7-86e6-7fccd1d28ab5-0-1400x919.jpg" />
+          <h4 className="numServings">Currently feeds {counter}</h4>
+          <button onClick={handleClick} className="servings">Add serving</button>
+          <button onClick={minusClick} className="servings">Minus serving</button>
           <h3 className="h3page1">Ingredients:</h3>
           <ul className="ingpage1">
-            <li>1 medium butternut squash, peeled and chopped</li>
-            <li>3 tbsp olive oil</li>
-            <li>220g tomatoes </li>
-            <li>50g walnuts, roughly chopped </li>
-            <li>150g baby spinach leaves</li>
-            <li>6 tbsp pomegranate juice </li>
-            <li>3 tbsp extra-virgin olive oil </li>
-            <li>1 tsp Dijon mustard </li>
-            <li>2 tbsp pomegranate seeds </li>
+            <li>{0.25 * counter} medium butternut squash, peeled and chopped</li>
+            <li>{0.75 * counter} tbsp olive oil</li>
+            <li>{55 * counter}g tomatoes </li>
+            <li>{12.5 * counter}g walnuts, roughly chopped </li>
+            <li>{37.5 * counter}g baby spinach leaves</li>
+            <li>{1.5 * counter} tbsp pomegranate juice </li>
+            <li>{0.75 * counter} tbsp extra-virgin olive oil </li>
+            <li>{0.25 * counter} tsp Dijon mustard </li>
+            <li>{0.5 * counter} tbsp pomegranate seeds </li>
           </ul>
-          <h4>Recipe:</h4>
+          <h3 className="h3page1">Recipe:</h3>
           <ul>
             <li>
               Preheat the oven to gas 8, 220°C, fan 200°C. Put the butternut
