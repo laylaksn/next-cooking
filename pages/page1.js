@@ -62,12 +62,14 @@ export default function Home() {
             <li>Stir in the nutritional yeast and mushrooms</li>
             <li>Serve and enjoy :) </li>
           </ul>
-          <h4 className="suggest">You may also like...</h4>
-          <div className="recipeContainer">
-          <Link href="/page2">Roasted squash salad
-          <img src="https://realfood.tesco.com/media/images/TESCO-01-Xmas-FestiveMenuHelperRecipes-2910-GM-54718-RoastedSquashSaladWithPomegranteDressingVeganGF-1400x919-1c7e714f-2cc3-4cb7-86e6-7fccd1d28ab5-0-1400x919.jpg" />
+          <h4>You may also like...</h4>
+          <div className= "recipeCont">
+                <Link href="/page2"> <h6>Roasted squash salad</h6></Link>{" "}
+              <Link href="/page1">
+                {" "}
+                <img className="recipeImageBottom" src="https://realfood.tesco.com/media/images/TESCO-01-Xmas-FestiveMenuHelperRecipes-2910-GM-54718-RoastedSquashSaladWithPomegranteDressingVeganGF-1400x919-1c7e714f-2cc3-4cb7-86e6-7fccd1d28ab5-0-1400x919.jpg" />
           </Link>
-          </div>
+            </div>
         </div>
       </main>
     </>

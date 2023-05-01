@@ -174,7 +174,20 @@ head {
   display:block;
 }
 
-
+.recipePicPage {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 .typeOfRecipes {
   color: black;
@@ -229,6 +242,7 @@ h3 {
 
 .suggest{
   padding-bottom: 15px;
+  padding-top: 15px;
   font-size: 20px;
 }
 
@@ -351,4 +365,34 @@ recipeGrid {
   font-weight: bold;
   text-align: center;
   background-color: #fff;
+}
+
+.recipePicPage {
+  border: black;
+}
+
+.recipeImageBottom {
+  height: 200px;
+  padding: 0%;
+  width: fit-content;
+}
+
+h4{
+  padding-top: 15px;
+  font-size: 25px;
+  color: rgb(64, 63, 63);
+}
+
+h6{
+ padding-top: 15px;
+ padding-bottom: 15px;
+ color:black;
+ text-align: left;
+ font-size: 20px;
+ font-style: italic;
+ text-indent: 5%;
+}
+
+
+.recipeCont{
 }
