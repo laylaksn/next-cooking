@@ -329,3 +329,27 @@ h5{
 }
 
 
+recipeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.recipeCard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.recipeImage {
+  height: 250px;
+  object-fit: cover;
+}
+
+.recipeTitle {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+}

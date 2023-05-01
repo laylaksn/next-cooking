@@ -9,8 +9,6 @@
 }
 
 .description {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-size: 0.75rem;
@@ -22,6 +20,9 @@
   padding: 15px;
   border-style: solid;
   border-color: SeaShell;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   }
 
 .topTitle {
