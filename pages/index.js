@@ -58,7 +58,10 @@ export default function Home() {
               <h3>
                 <Link href="/page3">Florentine pizza</Link>
               </h3>
+              <Link href="/page3">
+                {" "}
               <img src="https://realfood.tesco.com/media/images/Florentine-pizza-LGH-2cc73fa2-bc01-4120-8dbd-c364556b499b-0-1400x919.jpg" />
+            </Link>
             </div>
           </div>
         </div>
