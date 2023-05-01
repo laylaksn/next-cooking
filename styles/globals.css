@@ -188,7 +188,7 @@ h3 {
   width: fit-content;
 }
 
-button {
+.button {
   background-color: rgb(107, 156, 107);
   padding: 0px;
   border: none;
@@ -200,11 +200,11 @@ button::after, button::before {
   transition: transform 0.3s ease;
 }
 
-button:hover::after {
+.button:hover::after {
   transform: translate(-3px,-3px) 
 }
 
-button:hover::before {
+.button:hover::before {
   transform: translate(3px,3px) 
 }
 
