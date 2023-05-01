@@ -143,14 +143,14 @@ a {
 }
 
 .someHeading {
-  color: black;
+  color: LightSlateGrey;
   font-style: regular;
   font-size: 60px;
   text-align: left;
   
 }
 
-.someHeading::after, button::before {
+.someHeading::after, some.Heading::before {
   transition: transform 0.3s ease;
 }
 
