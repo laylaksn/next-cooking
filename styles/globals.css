@@ -269,6 +269,20 @@ h3 {
   border-radius: 15px;
   margin-left: 5px;
 }
+.search-form button[type="submit"] {
+   padding: 8px 10px;
+  font-size: 15px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin-left: 5px;
+  transition-duration: 0.4s;
+  }
+  
+.search-form button[type="submit"]:hover {
+  background-color: LightSlateGrey;
+  }
 
 .suggestedRecipe {
   flex-direction: column;
@@ -313,3 +327,5 @@ h5{
 .navbara:hover {
   background-color: #f5f5f5; /* Add a background color on hover */
 }
+
+
