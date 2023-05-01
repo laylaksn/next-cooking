@@ -13,9 +13,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: left;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   max-width: var(--max-width);
-  width: 100%;
+  width: 120%;
   z-index: 2;
   font-family: var(--font-mono);
   background-color: OliveDrab;
