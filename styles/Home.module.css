@@ -45,6 +45,7 @@
 .recipeContainer {
   display: flex;
   justify-content: center;
+  width: 100%;
  
 }
 
@@ -52,4 +53,4 @@
   font-size: o.75rem;
   display: flex;
   align-items: center;
-  }
+}

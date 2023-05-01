@@ -24,6 +24,16 @@ export default function Home() {
           </form>
         </div>
         <div>
+        <nav>
+  <ul className="navbarUl">
+    <li className="navbarLi"><a className="navbara" href="#">Home</a></li>
+    <li className="navbarLi"><a className="navbara" href="#">A-Z Recipes</a></li>
+    <li className="navbarLi"><a className="navbara" href="#">About</a></li>
+    <li className="navbarLi"><a className="navbara" href="#">Contact</a></li>
+  </ul>
+</nav>
+        </div>
+        <div>
           <h2 className="typeOfRecipes">What&apos;s popular</h2>
           <div className={styles.description}>
             <div className={styles.recipePic}>

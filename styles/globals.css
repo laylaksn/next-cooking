@@ -277,3 +277,39 @@ h3 {
 h5{
   flex-direction: column;
 }
+
+
+/* CSS code for navigation bar */
+.nav {
+  background-color: #fff; /* Set the background color */
+  height: 60px; /* Set the height */
+  width: 100%; /* Set the width to fill the page */
+  border-bottom: 1px solid #ccc; /* Add a border to the bottom */
+}
+
+.navbarUl {
+  list-style: none; /* Remove the bullets from the list */
+  margin: 0; /* Remove the default margin */
+  padding: 0; /* Remove the default padding */
+  display: flex; /* Use flexbox for the layout */
+  align-items: center; /* Center the list items vertically */
+  height: 100%; /* Set the height of the list to fill the nav bar */
+}
+
+.navbarLi {
+  height: 100%; /* Set the height of the list items to fill the nav bar */
+}
+
+.navbara {
+  text-decoration: none; /* Remove the underline from the links */
+  color: #333; /* Set the color of the links */
+  display: block; /* Display the links as blocks */
+  height: 100%; /* Set the height of the links to fill the list items */
+  padding: 0 20px; /* Add some padding to the links */
+  line-height: 60px; /* Set the line height to vertically center the text */
+  transition: background-color 0.3s ease-in-out; /* Add a transition for the hover effect */
+}
+
+.navbara:hover {
+  background-color: #f5f5f5; /* Add a background color on hover */
+}
