@@ -150,7 +150,7 @@ a {
   
 }
 
-.someHeading::after, some.Heading::before {
+.someHeading::after {
   content:"";
   height:2px;
   width:0px;
