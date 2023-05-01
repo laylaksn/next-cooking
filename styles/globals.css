@@ -151,16 +151,24 @@ a {
 }
 
 .someHeading::after, some.Heading::before {
-  transition: transform 0.3s ease;
+  content:"";
+  height:2px;
+  width:0px;
+  background-color:white
+  display:block;
+  transition: transform 0.5s ease-in-out;
+  
 }
 
 .someHeading:hover::after {
-  transform: translate(-3px,-3px) 
+  content:"";
+  height:2px;
+  width:100px;
+  background-color:white
+  display:block;
 }
 
-.someHeading:hover::before {
-  transform: translate(3px,3px) 
-}
+
 
 .typeOfRecipes {
   color: black;
