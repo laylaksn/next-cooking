@@ -41,6 +41,24 @@
   font-family: var(--font-mono);
   padding: 15px;
 }
+.recipePic {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  padding: 15px;
+  transition: width 2s, height 4s;
+  }
+  .recipePic:hover {
+    width: 150%
+    height: 140%
+  
+}
 
 .recipeContainer {
   display: flex;
