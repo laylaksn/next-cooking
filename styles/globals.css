@@ -147,6 +147,7 @@ a {
   font-style: regular;
   font-size: 60px;
   text-align: left;
+  
 }
 
 .typeOfRecipes {
@@ -194,6 +195,20 @@ button {
   flex-direction: column;
   width: 100%;
 }
+
+button::after, button::before {
+  transition: transform 0.3s ease;
+}
+
+button:hover::after {
+  transform: translate(-3px,-3px) 
+}
+
+button:hover::before {
+  transform: translate(3px,3px) 
+}
+
+  
 
 .button-container {
   text-align: center;
