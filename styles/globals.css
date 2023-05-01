@@ -196,6 +196,16 @@ img {
   height: 200px;
   object-fit:fill;
 }
+.img {
+  width: 300px;
+  height: 200px;
+  object-fit:fill;
+  transition: width 2s height 3s
+}
+ .img:hover {
+   width: 500px
+   height: 300px
+}
 
 h2 {
   font-size: 40px;
