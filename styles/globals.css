@@ -329,6 +329,7 @@ h5{
 }
 
 
+
 recipeGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -343,8 +344,8 @@ recipeGrid {
 }
 
 .recipeImage {
-  height: 250px;
-  object-fit: cover;
+  width: 100%;
+  height: 200px;
 }
 
 .recipeTitle {
