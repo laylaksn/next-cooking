@@ -15,7 +15,7 @@
   align-items: center;
   font-size: 0.75rem;
   max-width: var(--max-width);
-  width: 120%;
+  width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
   background-color: OliveDrab;
