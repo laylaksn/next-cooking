@@ -19,7 +19,7 @@
   z-index: 2;
   font-family: var(--font-mono);
   background-color: OliveDrab;
-  padding: 20px;
+  padding: 40px;
   border-style: solid;
   border-color: SeaShell;
 }
@@ -40,7 +40,7 @@
 .recipeContainer {
   display: flex;
   justify-content: center;
-  background-color: black
+ 
 }
 
 .boxForTitle {
