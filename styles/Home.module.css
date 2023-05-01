@@ -47,4 +47,6 @@
 }
 .typeOfRecipes {
   font-size: o.75rem;
+  display: flex;
+  align-items: center;
   }
