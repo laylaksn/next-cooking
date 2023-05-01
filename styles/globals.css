@@ -150,6 +150,18 @@ a {
   
 }
 
+.someHeading::after, button::before {
+  transition: transform 0.3s ease;
+}
+
+.someHeading:hover::after {
+  transform: translate(-3px,-3px) 
+}
+
+.someHeading:hover::before {
+  transform: translate(3px,3px) 
+}
+
 .typeOfRecipes {
   color: black;
   font-style: regular;
@@ -194,18 +206,6 @@ h3 {
   border: none;
   flex-direction: column;
   width: 100%;
-}
-
-button::after, button::before {
-  transition: transform 0.3s ease;
-}
-
-.button:hover::after {
-  transform: translate(-3px,-3px) 
-}
-
-.button:hover::before {
-  transform: translate(3px,3px) 
 }
 
   
