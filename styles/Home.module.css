@@ -20,6 +20,8 @@
   font-family: var(--font-mono);
   background-color: OliveDrab;
   padding: 20px;
+  border-style: solid;
+  border-color: SeaShell;
 }
 
 .recipePic {
