@@ -18,11 +18,15 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
-  background-color: OliveDrab;
-  padding: 40px;
+  background-color: rgb(126, 165, 46);
+  padding: 15px;
   border-style: solid;
   border-color: SeaShell;
   
+}
+
+.topTitle {
+  font-family: sans-serif;
 }
 
 .recipePic {
@@ -44,9 +48,6 @@
  
 }
 
-.boxForTitle {
-  padding: 0px;
-}
 .typeOfRecipes {
   font-size: o.75rem;
   display: flex;

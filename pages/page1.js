@@ -27,12 +27,12 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div>
           <Link href={"/"}>Back to home</Link>
-          <h1 className="h1page1">Page 1</h1>
-          <h2 className="h2page1">Recipe for creamy vegan mushroom pasta</h2>
+          <h2 className="recipePageTitle">Creamy vegan mushroom pasta</h2>
+          <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/vegan_mushroom_pasta_28266_16x9.jpg" /> 
           <h4 className="numServings">Currently feeds {counter}</h4>
           <button onClick={handleClick} className="servings">Add serving</button>
           <button onClick={minusClick} className="servings">Minus serving</button>
-          <h3 className="h3page1">Ingredients:</h3>
+          <h3 className="ingredList">Ingredients:</h3>
           <ul className="ingpage1">
             <li>dash of olive oil</li>
             <li>{1 * counter} cloves of garlic (or more if you love garlic), crushed</li>
@@ -45,8 +45,8 @@ export default function Home() {
             <li>black pepper and dried oregano to taste</li>
             <li>{0.125 * counter} tablespoon of nutritional yeast</li>
           </ul>
-          <h3 className="h3page1">Recipe:</h3>
-          <ul>
+          <h3 className="ingredList">Recipe:</h3>
+          <ul className = "ingpage1">
             <li>Heat the olive oil in a large pot over medium heat</li>
             <li>
               Add the garlic and onion with some salt and cook until the garlic
@@ -62,8 +62,12 @@ export default function Home() {
             <li>Stir in the nutritional yeast and mushrooms</li>
             <li>Serve and enjoy :) </li>
           </ul>
-          <h4>You may also like...</h4>
-          <Link href="/page2">Roasted squash salad</Link>
+          <h4 className="suggest">You may also like...</h4>
+          <div className="recipeContainer">
+          <Link href="/page2">Roasted squash salad
+          <img src="https://realfood.tesco.com/media/images/TESCO-01-Xmas-FestiveMenuHelperRecipes-2910-GM-54718-RoastedSquashSaladWithPomegranteDressingVeganGF-1400x919-1c7e714f-2cc3-4cb7-86e6-7fccd1d28ab5-0-1400x919.jpg" />
+          </Link>
+          </div>
         </div>
       </main>
     </>
