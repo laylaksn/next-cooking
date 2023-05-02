@@ -230,6 +230,7 @@ img {
 h2 {
   font-size: 40px;
   font-style: normal;
+  text-decoration-line: underline;
 }
 
 .recipePageTitle {
