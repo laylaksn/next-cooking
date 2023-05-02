@@ -65,7 +65,7 @@ export default function Home() {
           <h4>You may also like...</h4>
           <div className= "recipeCont">
                 <Link href="/page2"> <h6>Roasted squash salad</h6></Link>{" "}
-              <Link href="/page1">
+              <Link href="/page2">
                 {" "}
                 <img className="recipeImageBottom" src="https://realfood.tesco.com/media/images/TESCO-01-Xmas-FestiveMenuHelperRecipes-2910-GM-54718-RoastedSquashSaladWithPomegranteDressingVeganGF-1400x919-1c7e714f-2cc3-4cb7-86e6-7fccd1d28ab5-0-1400x919.jpg" />
           </Link>
