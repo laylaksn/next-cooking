@@ -71,7 +71,7 @@ export default function Home() {
               <h3>
                 <Link href="/page1">Creamy vegan mushroom pasta</Link>{" "}
               </h3>
-              <Link href="/page2">
+              <Link href="/page1">
                 {" "}
                 <img className="recipeImage" src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/vegan_mushroom_pasta_28266_16x9.jpg" />
             </Link>
