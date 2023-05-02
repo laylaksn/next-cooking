@@ -91,7 +91,7 @@ export default function Home() {
               <h3>
                 <Link href="/page4">Teriyaki mushroom and brown rice bowl</Link>{" "}
               </h3>
-              <Link href="/page2">
+              <Link href="/page4">
                 {" "}
                 <img className="recipeImage"  src="https://realfood.tesco.com/media/images/1400x919-TeriyakiMushroomBrownRiceBowls-68a6a9dd-45cc-403a-8c29-3f2a575df0fe-0-1400x919.jpg" />
             </Link>
