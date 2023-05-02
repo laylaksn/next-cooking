@@ -246,6 +246,7 @@ h3 {
   color: black;
   padding: 10px;
   width: fit-content;
+  text-decoration-line: underline;
 }
 
 .ingredList {
