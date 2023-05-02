@@ -98,9 +98,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <footer>
-            <p>Made by Layla, Emily and Faith</p>
-        </footer>
       </main>
     </>
   );
