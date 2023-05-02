@@ -62,7 +62,7 @@ export default function Home() {
           </ul>
           <div className= "recipeCont">
                 <Link href="/page1"> <h6>Creamy vegan mushroom pasta </h6></Link>{" "}
-              <Link href="/page2">
+              <Link href="/page1">
                 {" "}
                 <img className="recipeImageBottom" src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/vegan_mushroom_pasta_28266_16x9.jpg" />
             </Link>
